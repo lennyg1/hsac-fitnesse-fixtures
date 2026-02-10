@@ -57,6 +57,15 @@ public class MapFixture extends SlimFixtureWithMap {
     }
 
     /**
+     * Stores null value in map.
+     * @param name name to use this value for.
+     * @param map map to store value in.
+     */
+    public void setNullValueForIn(String name, Map<String, Object> map) {
+        setValueForIn(null), name, map);
+    }
+
+    /**
      * Stores double value in map.
      * @param value value to be passed.
      * @param name name to use this value for.

@@ -54,7 +54,14 @@ public class SlimFixtureWithMap extends SlimFixtureWithMapHelper {
     public void setBooleanValueFor(boolean value, String name) {
         setValueFor(Boolean.valueOf(value), name);
     }
-
+    
+    /**
+     * Stores null value.
+     * @param name name to use this value for.
+     */
+    public void setNullValueFor(String name) {
+        setValueFor(null, name);
+    }
     /**
      * Stores value.
      * @param value value to be stored.
