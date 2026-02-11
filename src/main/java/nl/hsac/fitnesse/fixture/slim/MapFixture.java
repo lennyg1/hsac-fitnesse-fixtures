@@ -62,7 +62,7 @@ public class MapFixture extends SlimFixtureWithMap {
      * @param map map to store value in.
      */
     public void setNullValueForIn(String name, Map<String, Object> map) {
-        setValueForIn(null), name, map);
+        setValueForIn(null, name, map);
     }
 
     /**
